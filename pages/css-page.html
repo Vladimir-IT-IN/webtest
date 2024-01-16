@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Разработка веб-ресурсов</title>
+<link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+	<div class="container">
+		<h1 class="header-h1">CSS - для начинающих</h1>
+		<div class="header-flex">
+			<nav class="nav-spisok">
+				<h2 class="nav-h2">Навигация по сайту</h2>
+				<ul class="nav-main">
+					<a href="../index.html"><li class="nav-main-li">Главная</li></a>
+					<a href="html-page.html"><li class="nav-main-li">HTML</li></a>
+					<a href="css-page.html"><li class="nav-main-li">CSS</li></a>
+					<a href="js-page.html"><li class="nav-main-li">JavaScript</li></a>
+					<a href="php-page.html"><li class="nav-main-li">PHP</li></a>
+				</ul>
+			</nav>
+			<div class="nav-logo">
+				<img src="../images/html-css-js.png" width="250" height="222" alt=""/>
+			</div>
+		</div>
+	</div>
+</header>
+<div class="about">
+	<div class="container">
+		<h3 class="about-h3">Изучим основы CSS</h3>
+		<p class="about-p">Первым делом нужно создать еще один файл в корневой папке сайта, создадим новый текстовый файл и переименуем его в style, также нам нужно изменить его расширение на .css и зараннее откроем его текстовом редакторе</p>
+		<p class="about-p">Следующим этапом нужео подключить его к нашему index.html, для этого нужно открыть файл с которым мы ранее работали в любом текстовом редакторе и между двумя мета-тегами head вписать следующий код:</p>
+		<img src="../images/screen_5.jpg" alt=""/>
+		<p class="about-p">Тут указана ссылка на файл и тип этого самого файла, теперь напишем теле документа(между тегами body) небольшой текст и обернем его в параграф(p), с котором мы ранее работали. Перейдем к редактированию в style.css и попробуем изменить некоторые свойства нашего сайта</p>
+		<img src="../images/screen_6.jpg" alt=""/>
+		<p class="about-p">Сначала мы обратились к селектору body, который представляет всю визуальную часть сайта и изменили его свойство background(фон сайта) на черный. А селектор p(параграф), мы наоборот сделаем белым при помощи свойства color и прописанного значения white. Также при помощи свойства text-align и значения text-align центрируем текст по середине строки и посмотрим что у нас получилось</p>
+		<img src="../images/screen_7.jpg" alt=""/>
+		<p class="about-p">Если вы все корректно написали, то сайт должен теперь выглядить таким образом, как на картинке выше. Есть огромное количество самых разнообразных свойств у тех или иных частей сайта, все их конечно же не обязательно запоминать наизусть</p>
+		<p class="about-p">Давайте возьмем все тот-же параграф и попробуем сделать так, чтобы он был немного по центру сайта и левее нынешней позиции, сделать это можно многими способами, но мы попробуем при помощи свойства margin, которое отвечает за отступы и его значения ЧИСЛОpx(сверху), ЧИСЛОpx(справа), ЧИСЛОpx(снизу), ЧИСЛОpx(слева). Допустим мы напишем: margin: 240px 740px 0 0;</p>
+		<img src="../images/screen_8.jpg" alt=""/>
+	</div>
+</div>
+<footer class="footer">
+	<h4 class="footer-h">Сайт  &copy 2024</h4>
+</footer>
+</body>
+</html>
